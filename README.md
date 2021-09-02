@@ -1,2 +1,4 @@
 # Docker
-Simple Dockerifle for running a Python Web Server 
+Simple Python Web Application using Flash and Waitress
+Dockerfile containerizes the app using python:3.8-alpine
+
