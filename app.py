@@ -1,10 +1,12 @@
 from flask import Flask
 from waitress import serve
 import os
-
+import logging
 import random
 
 app = Flask(__name__)
+logger = logging.getLogger('waitress')
+logger.setLevel(logging.DEBUG)
 
 @app.route("/")
 def hello():
