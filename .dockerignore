@@ -2,5 +2,7 @@ README.md
 *.pyc
 *.pyo
 *.pyd
+*.sh
 .pytest_cache
 __pycache__
+
